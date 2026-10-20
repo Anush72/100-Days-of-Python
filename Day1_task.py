@@ -27,7 +27,7 @@ print("New lines can be created with a \n and the letter n")
 a = input("What is your name?")
 print("Hello "+ a+"!")
 
-Python Variable
+# Python Variable
 name = "Hello"
 print(name)
 
@@ -39,6 +39,6 @@ name = input("What is your name?")
 length = len(name)
 print(length)
 
-
-naming the variable
-Rule - On single unit, can use underscore, number should at start, should not use function name
+#
+# naming the variable
+# Rule - On single unit, can use underscore, number should at start, should not use function name
