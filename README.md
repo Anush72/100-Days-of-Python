@@ -8,4 +8,4 @@ Build Practical Projects
 Track my Progress every day
 Daily Progress 
 Day            Topic Learned     
-Day 01         String Concatenation, Debugging
+Day 01         String Concatenation, Debugging, Variable, Naming of Variable
