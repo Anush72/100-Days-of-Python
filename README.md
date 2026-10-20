@@ -9,3 +9,5 @@ Track my Progress every day
 Daily Progress 
 Day            Topic Learned     
 Day 01         String Concatenation, Debugging, Variable, Naming of Variable
+Day 01 Project Concatenation, input and variable
+
