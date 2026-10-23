@@ -11,3 +11,4 @@ Day            Topic Learned
 Day 01         String Concatenation, Debugging, Variable, Naming of Variable
 Day 01 Project Concatenation, input and variable
 Day 02         Data Types (String, Integer, Float and Boolean), Type Casting, Mathematical Operations 
+Day 02         f-strings and Tip Calculator Project
