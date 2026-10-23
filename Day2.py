@@ -46,3 +46,21 @@ print(5//3) #Divison - gives whole number
 print(2**7) #Power
 
 print(3*3+3/3-3)
+
+height = 1.65
+weight = 84
+
+# Write your code here.
+# Calculate the bmi using weight and height.
+bmi = weight/height**2
+print(bmi)
+print(round(bmi))
+print(round(bmi,2))
+
+
+# f-strings ( mixing strings with different type)
+score = 0
+height = 1
+is_winning = True
+
+print(f'Your score is = {score}, your height is {height} and Your winning is {is_winning}')
