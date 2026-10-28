@@ -49,3 +49,14 @@ print(states_of_Australia)
 # Adding the items in state
 states_of_Australia.extend(["Anush","Giri"])
 print(states_of_Australia)
+
+# Printing the random Value from list
+friends = ["Alice","Bob","Charlie","David","Emanuel"]
+print(random.choice(friends))
+
+# nested list
+fruits = ['Apple','Orange','Grapes','Peaches','Cherries']
+vegetables = ['Spinach','Kale','Tomatoes']
+
+dirty_dozen = [fruits,vegetables]
+print(dirty_dozen[1][1])
