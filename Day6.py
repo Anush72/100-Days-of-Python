@@ -9,3 +9,5 @@ def my_function():
     print("Bye")
 
 my_function()
+
+# While Loop - Continue going when the condition go on
