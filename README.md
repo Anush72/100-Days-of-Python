@@ -23,4 +23,5 @@ Welcome to my **100 Days of Python** learning journey!
 |**Day 03**| Control flow, If and else condition ,Multiple Ifs, Nested Ifs, Logical Operator | Treasure Island
 |**Day 04**| Randomization, Random Module, List (Data Structure), Nested List  | Rock Paper Scissors
 |**Day 05**| For Loop, Range  | Random Password Generator
-|**Day 06**| Defining Function  | 
+|**Day 06**| Defining Function  | Reeborg's World Exercise
+|**Day 07**| Revision of all Topic | Hangman 
