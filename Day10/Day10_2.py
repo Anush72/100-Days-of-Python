@@ -1,6 +1,11 @@
 # Leap Year Function
 
 def is_leap_year(year):
+    """
+    :param year:
+    :return: return the bool True for Leap Year
+    False for not Leap Year
+    """
     if year % 400 == 0:
         return True
     elif year % 100 == 0:
@@ -10,4 +15,4 @@ def is_leap_year(year):
     else:
         return False
 
-print(is_leap_year(2026))
+print(is_leap_year(2024))
