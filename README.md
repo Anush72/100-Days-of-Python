@@ -29,3 +29,4 @@ Welcome to my **100 Days of Python** learning journey!
 |**Day 09**| Dictionaries, Nested Lists and Dictionaries | The Secret Auction Game
 |**Day 10**| Function with Outputs, Docstrings | Calculator
 |**Day 11**|  Revision | Black Jack Game
+|**Day 12**|  Local Scope and Global Scope | The number guessing game
