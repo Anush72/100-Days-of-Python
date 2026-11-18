@@ -37,3 +37,13 @@ except ValueError:
 
 if age > 18:
     print(f"You can drive at age {age}.")
+
+
+# Squash Bugs with print() statement
+word_per_page = 0
+pages = int(input("Number of Pages: "))
+word_per_page = int(input("Number of words per page:"))
+total_words = pages * word_per_page
+
+
+print(total_words)
