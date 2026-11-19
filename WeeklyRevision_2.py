@@ -1,12 +1,11 @@
 # Personal Expenses Tracker
 
 # asking user to store the expenses name, amount and category
-def add_expenses():
+def add_expenses(expenses):
     """
     :return: expenses
     """
     # list to store expense of user
-    expenses = []
     asking = True
 
     while asking:
@@ -27,12 +26,6 @@ def add_expenses():
         if add_expense == 'no':
             asking = False
     return expenses
-
-expenses = [
-    {"name": "Coffee", "amount": 5.50, "category": "Food"},
-    {"name": "Groceries", "amount": 45.00, "category": "Food"},
-    {"name": "Transport", "amount": 12.00, "category": "Travel"}
-]
 
 
 
@@ -70,8 +63,63 @@ def highest_spending(spend):
     """
     highest_expense = {}
     highest_amount = 0
-    for expense in expenses:
+    for expense in spend:
         if expense['amount'] > highest_amount:
             highest_amount = expense['amount']
             highest_expense = expense
     return highest_expense
+
+
+# function to sum finding according to category
+
+def total_category(expenses):
+
+    category_spending = {}
+
+    for expense in expenses:
+            category = expense['category']
+            if expense['category'] not in category_spending:
+                amount = expense['amount']
+                category_spending[category] = amount
+            else:
+                category_spending[category] += expense['amount']
+    return category_spending
+
+
+# Asking User for Adding Expenses and Looking
+total_expenses = []
+personal_tracker = True
+while personal_tracker:
+    print("--Personal Expense Tracker--\n")
+    print("1. Add Expense\n2. View All Expense\n3. Total Spending\n4. Higest Expense\n5. Spending by Category\n6. Exit")
+    user_choice = int(input("Enter Your Choice: "))
+    if user_choice == 1:
+        total_expenses = add_expenses(total_expenses)
+    elif user_choice == 2:
+        print("\n--ALL EXPENSES --")
+        view_expenses(total_expenses)
+    elif user_choice == 3:
+        print("\n--TOTAL SPENDING--")
+        totalspend,n = total_spending(total_expenses)
+        print(f"You have spend {totalspend} with {n} items.")
+    elif user_choice == 4:
+        print("\n--HIGHEST SPENDING--")
+        maxspend = highest_spending(total_expenses)
+        print(f"Yu have spend {maxspend['amount']} in {maxspend['name']} on category of {maxspend['category']} ")
+    elif user_choice == 5:
+        print("\n--TOTAL EXPENSES BY CATEGORY--")
+        categories = total_category(total_expenses)
+        i = 0 
+        for category, amount in categories.items():
+            i += 1
+            print(f"{i}. {category} - {amount: .2f}")
+        
+    elif user_choice == 6:
+        personal_tracker = False
+    else:
+        print('Please enter from 1 to 6 according to option')
+    
+
+
+
+
