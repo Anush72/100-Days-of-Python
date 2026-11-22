@@ -31,4 +31,5 @@ Welcome to my **100 Days of Python** learning journey!
 |**Day 11**|  Revision | Black Jack Game
 |**Day 12**|  Local Scope and Global Scope | The number guessing game
 |**Day 13**|  Debugging | 
-|**Day 14**|  Higher Lower Project | 
+|**Day 14**|  Project Building | Higher Lower
+|**Day 15**|  Project Building | Coffee Machine
