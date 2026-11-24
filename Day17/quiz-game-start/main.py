@@ -1,0 +1,22 @@
+# import the libraries
+from question_model import Question
+from  data import question_data
+from quiz_brain import QuizBrain
+
+
+# Question bank which contain the list of objects of class Question
+question_bank = []
+for data in question_data:
+    question = data['text']
+    answer = data['answer']
+    new_question = Question(question,answer)
+    question_bank.append(new_question)
+
+
+quiz_brain = QuizBrain(question_list=question_bank)
+while quiz_brain.still_has_question():
+    quiz_brain.next_question()
+
+
+print("You've completed the quiz")
+print(f"Your final score is {quiz_brain.score}/ {quiz_brain.question_number}")
