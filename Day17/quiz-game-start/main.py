@@ -7,8 +7,8 @@ from quiz_brain import QuizBrain
 # Question bank which contain the list of objects of class Question
 question_bank = []
 for data in question_data:
-    question = data['text']
-    answer = data['answer']
+    question = data['question']
+    answer = data['correct_answer']
     new_question = Question(question,answer)
     question_bank.append(new_question)
 

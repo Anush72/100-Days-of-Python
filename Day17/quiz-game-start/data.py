@@ -1,15 +1,102 @@
 question_data = [
-{"text": "A slug's blood is green.", "answer": "True"},
-{"text": "The loudest animal is the African Elephant.", "answer": "False"},
-{"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-{"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-{"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", "answer": "True"},
-{"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
-{"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-{"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-{"text": "Google was originally called 'Backrub'.", "answer": "True"},
-{"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-{"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-{"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In World War II, Hawker Typhoons served in the Pacific theater.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "&quot;Windows NT&quot; is a monolithic kernel.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Vehicles",
+      "question": "The snowmobile was invented by Canadian Joseph-Armand Bombardier in 1937.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The name of the programming language AWK is abbreviated from the names of the developers &ndash; Aho, Weinberger, and Kernighan.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Leonardo da Vinci&#039;s Mona Lisa does not have eyebrows.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "Shaquille O&#039;Neal appeared in the 1997 film &quot;Space Jam&quot;.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The Windows 7 operating system has six main editions.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "The show &quot;Gilligan&#039;s Island&quot; was cancelled because of low ratings.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    }
 ]
-
