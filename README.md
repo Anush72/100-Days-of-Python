@@ -35,3 +35,4 @@ Welcome to my **100 Days of Python** learning journey!
 |**Day 15**|  Project Building | Coffee Machine
 |**Day 16**|  Object Oriented Programming (OOP), Class and Object, Attributes and Methods | Coffee Machine OOP
 |**Day 17**|  Creating Class, Attributes and Methods | Quiz Game
+|**Day 18**| Turtle Library  | 
